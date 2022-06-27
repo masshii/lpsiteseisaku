@@ -184,6 +184,7 @@ dd {
 }
 
 .service__main {
+  display: flex;
   text-align: center;
   padding: 100px 0 0 0;
   width: 100%;
@@ -192,15 +193,16 @@ dd {
 
 .card__side {
   display: flex;
-  flex-direction: column;
 }
 
 .service__side1 {
+  
   display: block;
   background-color: #BA55D3;
 }
 
 .service__side2 {
+  display: flex;
   display: block;
   background-color: #D8BFD8;
 }
@@ -226,8 +228,6 @@ dd {
 }
 
 .card__text2 {
-  display: flex;
-  display: inline-block;
   font-size: 15px;
   line-height: 30px;
   color: #ffffff;
