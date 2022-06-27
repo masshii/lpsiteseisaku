@@ -184,22 +184,24 @@ dd {
 }
 
 .service__main {
-  width: 50%;
+  text-align: center;
+  padding: 100px 0 0 0;
+  width: 100%;
   background-color: #C71585;
 }
 
 .card__side {
   display: flex;
-  flex-flow: column ;
-
+  flex-direction: column;
 }
+
 .service__side1 {
-  
+  display: block;
   background-color: #BA55D3;
 }
 
 .service__side2 {
-  
+  display: block;
   background-color: #D8BFD8;
 }
 
@@ -224,6 +226,8 @@ dd {
 }
 
 .card__text2 {
+  display: flex;
+  display: inline-block;
   font-size: 15px;
   line-height: 30px;
   color: #ffffff;
@@ -244,23 +248,22 @@ dd {
 .blog {
   background: #C0C0C0;
   padding-bottom: 50px;
+  width: 100%;
 }
 
 .blog__inner {
-  max-width: 500px;
-  width: 50%;
-  margin: 0 auto;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .blog__item {
   display: flex;
   justify-content: space-around;
+  padding: 30px 0;
 }
 
 .blog__card {
   position: relative;
-  width: 20%;
+  width: 30%;
   background: #ffffff;
 }
 
@@ -290,15 +293,15 @@ dd {
 }
 
 .tag {
+  display: flex;
+  justify-content: space-between;
   font-size: 14px;
-  text-align: justify;
   color: #696969;
 }
 
 
 .card__tag {
   display: inline-block;
-  right: 100px;
 }
 
 .card___date {
@@ -321,8 +324,8 @@ dd {
 }
 
 .company {
-  max-width: 900px;
-  width: 90%;
+  max-width: 700px;
+  width: 80%;
   margin: 0 auto;
   padding: 70px 0;
 }
