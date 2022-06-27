@@ -179,31 +179,39 @@ dd {
   color: #696969;
 }
 
+.img__card {
+  display: flex;
+  height: auto;
+}
+
 .card__main{
   display: flex;
 }
 
 .service__main {
-  display: flex;
   text-align: center;
-  padding: 100px 0 0 0;
-  width: 100%;
+  padding: 60px 0 0 0;
   background-color: #C71585;
 }
 
 .card__side {
   display: flex;
+  flex-direction: column;
+  width: 60%;
 }
 
 .service__side1 {
-  
   display: block;
   background-color: #BA55D3;
 }
 
+.service__side1 {
+  display: flex
+}
+
 .service__side2 {
-  display: flex;
   display: block;
+  display: flex;
   background-color: #D8BFD8;
 }
 
@@ -221,9 +229,9 @@ dd {
 }
 
 .card__text1 {
-  text-align: center;
   font-size: 15px;
   line-height: 30px;
+  padding: 0 60px;
   color: #ffffff;
 }
 
