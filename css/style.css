@@ -159,8 +159,8 @@ dd {
 }
 
 .service {
-  max-width: 1000px;
-  width: 120%;
+  max-width: 900px;
+  width: 100%;
   margin: 0 auto;
   padding: 10px 0;
   margin-bottom: 60px;
@@ -181,23 +181,24 @@ dd {
 
 .img__card {
   display: flex;
-  height: auto;
 }
 
 .card__main{
   display: flex;
+  
 }
 
 .service__main {
+  width: 100%;
   text-align: center;
-  padding: 60px 0 0 0;
+  padding: 10px 30px 0 30px;
   background-color: #C71585;
 }
 
 .card__side {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  width: 60%;
 }
 
 .service__side1 {
@@ -225,19 +226,19 @@ dd {
 .card__ttl2 {
   text-align: left;
   color: #ffffff;
-  padding: 20px 0;
+  padding: 30px 0 10px 0;
 }
 
 .card__text1 {
   font-size: 15px;
   line-height: 30px;
-  padding: 0 60px;
+  padding: 0 0px;
   color: #ffffff;
 }
 
 .card__text2 {
   font-size: 15px;
-  line-height: 30px;
+  line-height: 25px;
   color: #ffffff;
 }
 
@@ -273,6 +274,7 @@ dd {
   position: relative;
   width: 30%;
   background: #ffffff;
+  border-radius: 20px;
 }
 
 .card__img img {
@@ -370,31 +372,33 @@ table th {
 }
 
 .pic__item {
-  position: relative;
-}
-
-.pic__item img {
-  width: 50%;
-  float: left;
+  display: block;
+  display: flex;
   margin-bottom: 100px;
 }
 
+.pic__item img {
+  display: block;
+  display: flex;
+  width: 100%;
+}
+
 .pic__recruit {
-  position: absolute;
-  top: 150px;
-  left: 300px;
   color: #ffffff;
   font-size: 40px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pic__interview {
-  position: absolute;
-  top: 150px;
-  right: 200px;
   color: #ffffff;
   font-size: 40px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact {
