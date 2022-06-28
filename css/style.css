@@ -388,7 +388,12 @@ table th {
   position: relative;
   display: block;
   display: flex;
+  width: 100%;
   margin-bottom: 100px;
+}
+
+.pic__item div {
+  width: 50%;
 }
 
 .pic__item img {
@@ -412,7 +417,7 @@ table th {
 .pic__interview {
   position: absolute;
   top: 45%;
-  left: 60%;
+  left: 67%;
   color: #ffffff;
   font-size: 30px;
   font-weight: bold;
